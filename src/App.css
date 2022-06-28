@@ -1,41 +1,16 @@
 .App {
   text-align: center;
   position:relative;
-  align-self: center;
 }
 
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 #display{
-  background-color:white;
+  margin-top: 20%;
   justify-content: space-between;
-  max-width: 50%;
+  max-width: 100%;
   padding: 10px 10px;
-  background-color: white;
-  border: 5px solid gray;
+  background-color: rgba(200 200 190);
+  box-shadow: 0px 0px 0px 8px rgba(120 120 190);
 }
 
 .drum-pad{
@@ -44,4 +19,21 @@
   border-radius:10%;
   height: 30%;
   width: 30%;
+  box-shadow: 0 5px #666;
+}
+
+.drum-pad:hover:focus{
+  font-size: 2.8rem;
+  background-color: rgba(120 120 190);
+  box-shadow: 0 2px #666;
+  border-color: black;
+  transform: translateY(4px);
+}
+
+.drum-pad:focus{
+  font-size: 2.8rem;
+  background-color: rgba(170 120 190);
+  box-shadow: 0 2px #666;
+  border-color: black;
+  transform: translateY(4px);
 }

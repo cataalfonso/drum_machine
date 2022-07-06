@@ -13,27 +13,3 @@
   box-shadow: 0px 0px 0px 8px rgba(120 120 190);
 }
 
-.drum-pad{
-  font-size: 3rem;
-  margin:10px;
-  border-radius:10%;
-  height: 30%;
-  width: 30%;
-  box-shadow: 0 5px #666;
-}
-
-.drum-pad:hover:focus{
-  font-size: 2.8rem;
-  background-color: rgba(120 120 190);
-  box-shadow: 0 2px #666;
-  border-color: black;
-  transform: translateY(4px);
-}
-
-.drum-pad:focus{
-  font-size: 2.8rem;
-  background-color: rgba(170 120 190);
-  box-shadow: 0 2px #666;
-  border-color: black;
-  transform: translateY(4px);
-}
